@@ -1,4 +1,7 @@
-package com.example;
+package com.example.builder;
+
+import com.example.prototype.NPC;
+import com.example.prototype.Room;
 
 public interface IDungeonBuilder {
     IDungeonBuilder setDungeonName(String name);
